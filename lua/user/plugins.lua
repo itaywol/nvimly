@@ -77,6 +77,10 @@ return packer.startup(function(use)
 		requires = { "nvim-tree/nvim-web-devicons", opt = true },
 	})
 
+	use({
+		"AndreM222/copilot-lualine",
+	})
+
 	-- Completion
 	use({
 		"zbirenbaum/copilot.lua",
@@ -136,6 +140,7 @@ return packer.startup(function(use)
 			"williamboman/mason-lspconfig.nvim",
 			"jose-elias-alvarez/null-ls.nvim",
 			"RRethy/vim-illuminate",
+			"folke/neodev.nvim",
 		},
 	})
 

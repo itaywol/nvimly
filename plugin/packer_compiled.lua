@@ -124,6 +124,11 @@ _G.packer_plugins = {
     path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/copilot-cmp",
     url = "https://github.com/zbirenbaum/copilot-cmp"
   },
+  ["copilot-lualine"] = {
+    loaded = true,
+    path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/copilot-lualine",
+    url = "https://github.com/AndreM222/copilot-lualine"
+  },
   ["copilot.lua"] = {
     loaded = true,
     path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/copilot.lua",
@@ -153,6 +158,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/monokai-pro.nvim",
     url = "https://github.com/loctvl842/monokai-pro.nvim"
+  },
+  ["neodev.nvim"] = {
+    loaded = true,
+    path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/neodev.nvim",
+    url = "https://github.com/folke/neodev.nvim"
   },
   ["null-ls.nvim"] = {
     loaded = true,

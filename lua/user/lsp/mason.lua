@@ -7,12 +7,12 @@ local servers = {
 	"docker_compose_language_service",
 	"clangd",
 	"cssls",
-  "grammarly",
-  "helm_ls",
-  "jsonls",
-  "yamlls",
-  "terraformls",
-  "tsserver",
+	"grammarly",
+	"helm_ls",
+	"jsonls",
+	"yamlls",
+	"terraformls",
+	"tsserver",
 }
 
 local settings = {
@@ -33,6 +33,13 @@ require("mason-lspconfig").setup({
 	ensure_installed = servers,
 	automatic_installation = true,
 })
+
+local neodev_status, neodev = pcall(require, "neodev")
+if not neodev_status then
+	return
+end
+
+neodev.setup()
 
 local lspconfig_status_ok, lspconfig = pcall(require, "lspconfig")
 if not lspconfig_status_ok then
