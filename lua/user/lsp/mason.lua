@@ -15,6 +15,12 @@ local servers = {
 	"tsserver",
 }
 
+local dapServers = {
+	"delve",
+	"cppdbg",
+	"node2",
+}
+
 local settings = {
 	ui = {
 		border = "none",
@@ -31,6 +37,11 @@ local settings = {
 require("mason").setup(settings)
 require("mason-lspconfig").setup({
 	ensure_installed = servers,
+	automatic_installation = true,
+})
+
+require("mason-nvim-dap").setup({
+	ensure_installed = dapServers,
 	automatic_installation = true,
 })
 

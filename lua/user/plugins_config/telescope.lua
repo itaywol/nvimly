@@ -90,7 +90,8 @@ telescope.setup {
         },
     },
     extensions = {
-        projects = {}
+        projects = {},
+        dap = {},
         -- Your extension configuration goes here:
         -- extension_name = {
         --   extension_config_key = value,
