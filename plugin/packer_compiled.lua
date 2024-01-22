@@ -134,6 +134,16 @@ _G.packer_plugins = {
     path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/copilot.lua",
     url = "https://github.com/zbirenbaum/copilot.lua"
   },
+  ["hardtime.nvim"] = {
+    loaded = true,
+    path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/hardtime.nvim",
+    url = "https://github.com/m4xshen/hardtime.nvim"
+  },
+  ["hologram.nvim"] = {
+    loaded = true,
+    path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/hologram.nvim",
+    url = "https://github.com/edluffy/hologram.nvim"
+  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
@@ -173,6 +183,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/neodev.nvim",
     url = "https://github.com/folke/neodev.nvim"
+  },
+  ["neoscroll.nvim"] = {
+    loaded = true,
+    path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/neoscroll.nvim",
+    url = "https://github.com/karb94/neoscroll.nvim"
+  },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
   },
   ["null-ls.nvim"] = {
     loaded = true,
@@ -238,6 +258,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["todo-comments.nvim"] = {
+    loaded = true,
+    path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/todo-comments.nvim",
+    url = "https://github.com/folke/todo-comments.nvim"
   },
   ["toggleterm.nvim"] = {
     loaded = true,

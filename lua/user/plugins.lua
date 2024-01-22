@@ -148,6 +148,18 @@ return packer.startup(function(use)
     },
   })
 
+  -- Highlight TODOs
+  use({ "folke/todo-comments.nvim" })
+
+  -- Image viewer
+  use({ "edluffy/hologram.nvim" })
+
+  -- Smooth scrolling
+  use({ "karb94/neoscroll.nvim" })
+
+  -- Getting better at vim navigation
+  use({ "m4xshen/hardtime.nvim", requires = { "MunifTanjim/nui.nvim" } })
+
   use({ "lukas-reineke/indent-blankline.nvim", main = "ibl" })
 
   if PACKER_BOOTSTRAP then
