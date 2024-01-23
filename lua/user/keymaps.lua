@@ -20,10 +20,10 @@ vim.g.maplocalleader = " "
 
 -- Normal --
 -- Better window navigation
-keymap("n", "<C-h>", "<cmd>lua require('tmux').move_left()<cr>", opts)
-keymap("n", "<C-j>", "<cmd>lua require('tmux').move_bottom()<cr>", opts)
-keymap("n", "<C-k>", "<cmd>lua require('tmux').move_top()<cr>", opts)
-keymap("n", "<C-l>", "<cmd>lua require('tmux').move_right()<cr>", opts)
+keymap("n", "<C-h>", "<cmd>TmuxNavigateLeft<CR>", opts)
+keymap("n", "<C-j>", "<cmd>TmuxNavigateDown<CR>", opts)
+keymap("n", "<C-k>", "<cmd>TmuxNavigateUp<CR>", opts)
+keymap("n", "<C-l>", "<cmd>TmuxNavigateRight<CR>", opts)
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize -2<CR>", opts)

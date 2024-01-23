@@ -259,11 +259,6 @@ _G.packer_plugins = {
     path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
-  ["tmux.nvim"] = {
-    loaded = true,
-    path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/tmux.nvim",
-    url = "https://github.com/aserowy/tmux.nvim"
-  },
   ["todo-comments.nvim"] = {
     loaded = true,
     path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/todo-comments.nvim",
@@ -283,6 +278,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/vim-illuminate",
     url = "https://github.com/RRethy/vim-illuminate"
+  },
+  ["vim-tmux-navigator"] = {
+    loaded = true,
+    path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
+    url = "https://github.com/christoomey/vim-tmux-navigator"
   },
   ["which-key.nvim"] = {
     loaded = true,

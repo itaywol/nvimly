@@ -162,7 +162,7 @@ return packer.startup(function(use)
 
 	use({ "lukas-reineke/indent-blankline.nvim", main = "ibl" })
 
-	use({ "aserowy/tmux.nvim" })
+	use({ "christoomey/vim-tmux-navigator" })
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
