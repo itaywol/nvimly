@@ -259,6 +259,11 @@ _G.packer_plugins = {
     path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["tmux.nvim"] = {
+    loaded = true,
+    path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/tmux.nvim",
+    url = "https://github.com/aserowy/tmux.nvim"
+  },
   ["todo-comments.nvim"] = {
     loaded = true,
     path = "/home/itaywol/.local/share/nvim/site/pack/packer/start/todo-comments.nvim",
