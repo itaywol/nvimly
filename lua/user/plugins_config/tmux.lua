@@ -3,4 +3,4 @@ if not status_ok then
 	return
 end
 
-tmux.setup()
+tmux.setup({ navigation = { enable_default_keybindings = false } })
